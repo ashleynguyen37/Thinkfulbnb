@@ -51,6 +51,7 @@ main img {
 }
 
 .item-double {
+  padding: 1%;
   flex: 2;
 }
 
@@ -58,7 +59,7 @@ main img {
 
 header {
   background-color: #ff385c;
-  padding: 20px 20px 0 20px;
+  padding: 2% 2% 0 2%;
   text-align: center;
 }
 
@@ -66,6 +67,7 @@ header {
   font-family: "Pangolin", cursive;
   font-size: 72px;
   color: #fff;
+  text-align: center;
 }
 
 header nav ul li {
@@ -83,20 +85,35 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
+#menu {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
 /* -------  Search Form ------- */
+.form-group{
+  display: flex;
+  flex: 1;
+}
+
 form {
   border: 2px solid #ff385c;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 form label {
   font-weight: bold;
+  flex: 1;
+  margin: 10px;
 }
 
 form select,
 form input {
-  margin-bottom: 20px;
-  width: 180px;
+  margin: 10px 10px 20px 10px;
+  flex: 2;
 }
 
 form button {
@@ -106,6 +123,7 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+  flex: 1;
 }
 
 /* -------  Footer ------- */
