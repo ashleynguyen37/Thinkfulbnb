@@ -87,6 +87,7 @@ header nav ul li a:hover {
 
 #menu {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   padding-bottom: 15px;
 }
@@ -160,7 +161,7 @@ footer p {
   }
 
   .logo {
-    font-size: 72px;
+    font-size: 63px;
   }
 
   .form-group {
